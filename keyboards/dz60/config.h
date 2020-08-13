@@ -10,6 +10,11 @@
 #define PRODUCT         DZ60
 #define DESCRIPTION     DZ60 Keyboard
 
+#define COMBO_COUNT 2
+#define COMBO_TERM 50
+/* This is used for the space caddet timeout */
+#define TAPPING_TERM 50
+
 /* key matrix size */
 #define MATRIX_ROWS 5
 #define MATRIX_COLS 15
