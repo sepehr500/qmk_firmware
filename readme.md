@@ -1,4 +1,7 @@
 # Quantum Mechanical Keyboard Firmware
+copy uf2 file in .build into the keyboard after double presing the flash button
+qmk compile -kb lily58 -km default -e CONVERT_TO=blok
+qmk flash -kb lily58 -km default
 
 [![Current Version](https://img.shields.io/github/tag/qmk/qmk_firmware.svg)](https://github.com/qmk/qmk_firmware/tags)
 [![Discord](https://img.shields.io/discord/440868230475677696.svg)](https://discord.gg/qmk)
